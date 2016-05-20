@@ -6,6 +6,8 @@
   <title>heart</title>
   <style>
     .title{
+    	width: 360px;
+      	margin: 20px auto;
     	font-size: 32px;
     	font-weight: bold;
     	line-height: 40px;
@@ -15,7 +17,7 @@
       z-index: 3;
       width: 360px;
       height: 300px;
-      margin: 20% auto;
+      margin: 0 auto;
       animation: jump 1s infinite ease-out;
     }
     .heart::before{
@@ -72,11 +74,10 @@
       position: absolute;
       z-index: 1;
       width: 360px;
-      height: 300px;
-      padding-top: 40px;
-      font-size: 50px;
+      padding: 40px 0;
+      font-size: 48px;
       font-weight: bold;
-      line-height: 80px;
+      line-height: 30px;
       color: #fff;
       text-align: center;
       letter-spacing: 0.2em;
@@ -86,7 +87,10 @@
 <body>
   <div class="title">To 所有人：</div>	
   <div class="heart">
-  	<div class="con">幸福快乐520</div>
+  	<div class="con">
+  		<p>幸福快乐</p>
+  		<p>520</p>
+  	</div>
   </div>
 </body>
 </html>
